@@ -6,4 +6,4 @@ RUN pip3 install flask requests
 
 COPY . /web-server
 
-CMD python3 /web-server/server.py
+CMD python3 /web-server/server.py > output.txt

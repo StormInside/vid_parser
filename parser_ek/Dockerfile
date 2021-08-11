@@ -6,4 +6,4 @@ RUN pip3 install bs4 requests
 
 COPY . /parsers
 
-CMD python3 /parsers/parser_ek.py
+CMD python3 /parsers/parser_ek.py > output.txt
